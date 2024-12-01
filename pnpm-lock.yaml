@@ -33,12 +33,12 @@ importers:
         specifier: 19.0.0-rc-66855b96-20241106
         version: 19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106)
     devDependencies:
-      '@repo/eslint-config':
+      '@repo/config-eslint':
         specifier: workspace:*
-        version: link:../../packages/eslint-config
-      '@repo/typescript-config':
+        version: link:../../packages/config/eslint
+      '@repo/config-typescript':
         specifier: workspace:*
-        version: link:../../packages/typescript-config
+        version: link:../../packages/config/typescript
       '@types/node':
         specifier: ^20
         version: 20.17.6
@@ -67,12 +67,12 @@ importers:
         specifier: 19.0.0-rc-66855b96-20241106
         version: 19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106)
     devDependencies:
-      '@repo/eslint-config':
+      '@repo/config-eslint':
         specifier: workspace:*
-        version: link:../../packages/eslint-config
-      '@repo/typescript-config':
+        version: link:../../packages/config/eslint
+      '@repo/config-typescript':
         specifier: workspace:*
-        version: link:../../packages/typescript-config
+        version: link:../../packages/config/typescript
       '@types/node':
         specifier: ^20
         version: 20.17.6
@@ -86,7 +86,7 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
 
-  packages/eslint-config:
+  packages/config/eslint:
     devDependencies:
       '@next/eslint-plugin-next':
         specifier: ^15
@@ -125,7 +125,7 @@ importers:
         specifier: ^8.15.0
         version: 8.15.0(eslint@9.15.0)(typescript@5.5.4)
 
-  packages/typescript-config: {}
+  packages/config/typescript: {}
 
   packages/ui:
     dependencies:
@@ -136,10 +136,10 @@ importers:
         specifier: 19.0.0-rc-5c56b873-20241107
         version: 19.0.0-rc-5c56b873-20241107(react@19.0.0-rc-5c56b873-20241107)
     devDependencies:
-      '@repo/eslint-config':
+      '@repo/config-eslint':
         specifier: workspace:*
         version: link:../eslint-config
-      '@repo/typescript-config':
+      '@repo/config-typescript':
         specifier: workspace:*
         version: link:../typescript-config
       '@turbo/gen':
