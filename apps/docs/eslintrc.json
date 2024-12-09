@@ -1,0 +1,3 @@
+{
+  "extends": ["@jaden/eslint-config/next-js"]
+}

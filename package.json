@@ -4,7 +4,13 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "dev:web": "turbo run dev --filter=web",
+    "dev:sample": "turbo run dev --filter=sample",
     "lint": "turbo lint",
+    "lint:docs": "turbo lint --filter=docs",
+    "lint:sample": "turbo lint --filter=sample",
+    "lint:web": "turbo lint --filter=web",
+    "lint:ui": "turbo lint --filter=ui",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
@@ -14,6 +20,6 @@
   },
   "packageManager": "pnpm@9.0.6",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   }
 }

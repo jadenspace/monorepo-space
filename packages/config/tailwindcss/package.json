@@ -1,0 +1,8 @@
+{
+  "name": "@jaden/tailwind-config",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "prettier-plugin-tailwindcss": "^0.6.6"
+  }
+}

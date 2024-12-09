@@ -1,0 +1,8 @@
+{
+  "name": "@jaden/prettier-config",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "eslint-plugin-prettier": "^5.2.1"
+  }
+}
