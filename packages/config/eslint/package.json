@@ -1,12 +1,11 @@
 {
   "name": "@jaden/eslint-config",
   "version": "0.0.0",
-  "type": "module",
   "private": true,
   "exports": {
     "./base": "./base.cjs",
-    "./next-js": "./next.cjs",
-    "./react-internal": "./react-internal.cjs"
+    "./next-js": "./next-js.cjs",
+    "./react": "./react.cjs"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^15",

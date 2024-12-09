@@ -1,28 +1,11 @@
 {
-  "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "paths": {
-      "@/*": ["./*"],
-      "@monorepo-space/ui": ["../../packages/ui/src/*"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next.config.mjs"],
-  "exclude": ["node_modules"]
+  "extends": "@jaden/typescript-config/next-js",
+  "include": [
+    "../../packages/config/typescript/next-env.d.ts",
+    "../../packages/config/typescript/**/*.ts",
+    "../../packages/config/typescript/**/*.tsx",
+    "../../packages/config/typescript/.next/types/**/*.ts",
+    "../../packages/config/typescript/next.config.mjs",
+    ".next/types/**/*.ts"
+  ]
 }

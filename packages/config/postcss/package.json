@@ -1,0 +1,13 @@
+{
+  "name": "@jaden/postcss-config",
+  "main": "index.cjs",
+  "dependencies": {
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "^9.3.0"
+  },
+  "devDependencies": {
+    "@jaden/tailwind-config": "workspace:*",
+    "postcss": "^8"
+  }
+}

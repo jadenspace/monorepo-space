@@ -15,5 +15,4 @@ module.exports = {
       // 추가 테마
     },
   },
-  plugins: [require("prettier-plugin-tailwindcss")],
 };

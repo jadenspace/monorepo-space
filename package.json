@@ -3,6 +3,10 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "build:docs": "turbo build --filter=docs",
+    "build:sample": "turbo build --filter=sample",
+    "build:web": "turbo build --filter=web",
+    "build:ui": "turbo build --filter=ui",
     "dev": "turbo dev",
     "dev:web": "turbo run dev --filter=web",
     "dev:sample": "turbo run dev --filter=sample",
@@ -20,6 +24,7 @@
   },
   "packageManager": "pnpm@9.0.6",
   "engines": {
-    "node": ">=20"
+    "node": ">=20",
+    "pnpm": "9.0.6"
   }
 }

@@ -19,6 +19,7 @@
     "@jaden/eslint-config": "workspace:*",
     "@jaden/typescript-config": "workspace:*",
     "@jaden/tailwind-config": "workspace:*",
+    "@jaden/postcss-config": "workspace:*",
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",

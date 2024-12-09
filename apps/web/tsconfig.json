@@ -1,18 +1,11 @@
 {
-  "extends": "@jaden/typescript-config/nextjs.json",
-  "compilerOptions": {
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
-  },
+  "extends": "@jaden/typescript-config/next-js",
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "next-env.d.ts",
-    "next.config.mjs",
+    "../../packages/config/typescript/next-env.d.ts",
+    "../../packages/config/typescript/**/*.ts",
+    "../../packages/config/typescript/**/*.tsx",
+    "../../packages/config/typescript/.next/types/**/*.ts",
+    "../../packages/config/typescript/next.config.mjs",
     ".next/types/**/*.ts"
-  ],
-  "exclude": ["node_modules"]
+  ]
 }

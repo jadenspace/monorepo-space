@@ -1,5 +1,5 @@
 {
-  "extends": "@jaden/typescript-config/react-library.json",
+  "extends": "@jaden/typescript-config/react",
   "compilerOptions": {
     "outDir": "dist"
   },
